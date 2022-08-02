@@ -1,0 +1,6 @@
+short_side=input("please enter short side:")
+long_side=input("please enter long side:")
+area=int(short_side)*int(long_side)
+perimeter=2*(int(short_side)+int(long_side))
+print(f"area:{area}")
+print(f"perimeter:{perimeter}")
